@@ -10,6 +10,7 @@ public class StringOperations {
 		
 		//Remove the 4th letter of name2 string
 		
+		
 		//System.out.println(removeCharAt(name2, 4));
 		StringBuffer str = new StringBuffer("This is not Me");
 		str.deleteCharAt(3);

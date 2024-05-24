@@ -1,5 +1,7 @@
 package packageTest;
 
+import java.util.HashMap;
+
 public class StringReverse {
 
 	public static void main(String[] args) {
@@ -20,10 +22,20 @@ public class StringReverse {
 			System.out.println("it is not a palindrome");
 		}
 		
-		//Or we can do it from stringBuffer
-		String reverse = new StringBuffer(n1).reverse().toString();
-		System.out.println(reverse);
-
-	}
+		//To reverse a word from the sentence
+		String str1 = "Amruta is my name";
+		String str2[] = str1.split(" ");
+		
+//		for(int i=0; i<str2.length; i++) {
+//			System.out.print(str2[i]+ " ");
+//		}
+		
+//		System.out.println("");
+		
+		for(int i=str2.length-1; i>=0; i--) {
+			System.out.print(str2[i]+ " ");
+		}
+}
+	
 
 }
